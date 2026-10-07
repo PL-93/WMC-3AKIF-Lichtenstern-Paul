@@ -1,0 +1,45 @@
+    <form action="mailto:adresse@mail.com"
+method="post" enctype="text/plain">
+Vorname:
+<input type="text" name="vorname">
+<br><br>
+Nachname:
+<input type="text" name="nachname">
+</form>
+
+    <form>
+        <input type="radio" name="geschlecht" value="maennlich">Maennlich
+        <input type="radio" name="geschlecht" value="weiblich">Weiblich
+        <input type="radio" name="geschlecht" value="divers">Divers
+        <input type="radio" name="geschlecht" value="keineAngabe">Keine Angabe
+
+    </form>
+
+            <input type="checkbox" name="interesse"
+            value="sport">Sport
+            <input type="checkbox" name="interesse"
+            value="musik">Musik
+
+
+                    <select name="geschlecht" multiple>
+                    <option value="weiblich">Weiblich</option>
+                    <option value="maennlich">Männlich</option>
+                    <option value="divers">Divers</option>
+                    <option value="keineAngabe" selected>Keine Angabe</option>
+                    </select>
+
+
+
+                            <form>
+                                <textarea name="kommentar"
+                            placeholder="Fuegen Sie Ihren Kommentar ein!">
+                            </textarea>
+                            </form>
+
+                                <input type=“hidden” name=“seite”
+                                value=“form1.htm”>
+
+                                        <input type="submit"
+                                        value="Formular abschicken">
+                                        <input type="reset"
+                                        value="Formular zurücksetzen">
