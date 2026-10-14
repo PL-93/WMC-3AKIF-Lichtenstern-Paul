@@ -1,0 +1,31 @@
+
+body {
+color: rgb(0, 0, 0);
+}
+ h1 {
+color: rgb(215, 212, 216);text-align: center;
+    background-color: rgb(118, 69, 165);
+        animation: farbwechsel 1s infinite steps(1);
+}
+
+/* Definition der Blink-Animation */
+@keyframes farbwechsel {
+    50% {
+        /* Nach der Hälfte der Zeit (bei 50%) tauschen die Farben */
+        color: rgb(118, 69, 165);
+        background-color: rgb(215, 212, 216);
+    }
+    
+
+}
+
+main {
+    color: rgb(245, 243, 243);
+
+    background-color: rgb(166, 0, 255);
+}
+
+p:hover {
+    color: rgb(201, 6, 255);
+    background-color: rgb(234, 235, 238);
+}
