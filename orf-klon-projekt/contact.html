@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ORF News - Kontakt</title>
+
+    <!-- Google Font: Source Sans 3 (Gewichte 400 und 900) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;900&display=swap" rel="stylesheet">
+
+    <!-- Externes Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HAUPTNAVIGATION -->
+    <nav class="site-nav">
+        <ul>
+            <li><a href="index.html">News</a></li>
+            <li><a href="top40.html">Ö3 Top 40</a></li>
+            <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- KOPFZEILE / LOGO -->
+    <header>
+        <h1>
+            <a href="index.html">
+                <span>NEWS</span>
+                <img src="https://orf.at/mojo/1_4_1/storyserver//news/news/images/target_news.svg" alt="ORF.at Logo" width="150" height="100">
+            </a>
+        </h1>
+    </header>
+
+    <!-- HAUPTINHALT / FORMULAR -->
+    <main>
+        <section>
+            <h2>Kontakt</h2>
+            <p>Schreiben Sie uns eine Nachricht über das Formular.</p>
+
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required placeholder="Ihr Name">
+
+                <label for="email">E-Mail-Adresse:</label>
+                <input type="email" id="email" name="email" required placeholder="name@beispiel.at">
+
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Ihre Nachricht..."></textarea>
+
+                <label for="dsgvo">
+                    <input type="checkbox" id="dsgvo" name="dsgvo" required>
+                    Ich stimme den Datenschutzbestimmungen zu.
+                </label>
+
+                <button type="submit">Senden</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <hr>
+        <address>
+            ORF-Zentrum<br>
+            Würzburggasse 30<br>
+            1136 Wien
+        </address>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="#">Impressum</a></li>
+                <li><a href="#">Datenschutz</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+</html>
